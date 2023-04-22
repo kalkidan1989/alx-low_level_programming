@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * more headers goes there
- * main	-	Entry	point	
- * betty style doc for function main goes there
+ * main - Entry point
+ * Return: always 0 for all values
  */
 int main(void)
 {
