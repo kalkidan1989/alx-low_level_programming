@@ -11,8 +11,11 @@ int main(void)
 	for     (num =       0;    num  <=      9;    num++)
 	{
 		putchar(num     +       48);
-		putchar(44);
-		putchar(32);
+		if	(num	<=	8)
+		{
+			putchar(44);
+			putchar(32);
+		}
 	}
 	putchar(36);
 	return (0);
