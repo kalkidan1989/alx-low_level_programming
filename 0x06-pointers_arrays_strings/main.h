@@ -8,6 +8,7 @@ char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
 char *rot13(char *);
+void print_number(int n);
 unsigned int _strspn(char *s, char *accept);                                                                                       
 char *_strpbrk(char *s, char *accept);                                                                                             
 char *_strstr(char *haystack, char *needle);                                                                                       
